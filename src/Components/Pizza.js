@@ -1,14 +1,15 @@
-import pizzaData from "../data.js";
-import focaccia from "../pizzas/focaccia.jpg";
+// import pizzaData from "../data.js";
+// import focaccia from "../pizzas/focaccia.jpg";
 
-function Pizza() {
+function Pizza(props) {
   return (
-    <div>
-      <h3> {pizzaData[0].name} </h3>
-      <p> {pizzaData[0].ingredients} </p>
-      <p> {pizzaData[0].price} </p>
-      <img src={focaccia} alt={focaccia} />
-      <p> {pizzaData[0].soldOut} </p>
+    <div className="pizza">
+      <img src={props.photoName} alt={props.photoName} />
+      <div className="">
+        <h3> {props.name} </h3>
+        <p> {props.ingredients} </p>
+        <span> {props.price} </span>
+      </div>
     </div>
   );
 }

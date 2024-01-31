@@ -3,7 +3,7 @@ import "../index.css";
 function Header() {
   return (
     <header className="header">
-      <h1>Fast React Pizza Co.</h1>
+      <h1>Ultimate Pizza Co.</h1>
     </header>
   );
 }
