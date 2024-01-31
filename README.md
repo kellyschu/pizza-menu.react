@@ -10,6 +10,6 @@ This is a simple Pizza Menu Web App built using React. It allows users to view a
 - **Toppings Customization**: Customize your pizza by selecting your favorite toppings.
 - **Order Placement**: Place your order easily and enjoy your customized pizza.
 
-## Sample Link
+## Deployed Web App
 
 Check out the site [here](https://ultimatepizzaco.netlify.app/) for more information.
