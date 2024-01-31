@@ -5,17 +5,11 @@ function Menu() {
   return (
     <div className="menu">
       <h2> Our Menu </h2>
-      <div>
-        {pizzaData.map((pizza, index) => (
-          <Pizza
-            key={index}
-            name={pizza.name}
-            ingredients={pizza.ingredients}
-            photoName={pizza.photoName}
-            price={pizza.price}
-          />
+      <ul className="pizzas">
+        {pizzaData.map((pizza) => (
+          <Pizza pizzaObj={pizza} key={pizza.name} />
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
